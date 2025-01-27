@@ -1,6 +1,6 @@
-# [Start Bootstrap - Personal](https://startbootstrap.com/template/personal/)
+# [RIA Green - Personal](https://startbootstrap.com/template/personal/)
 
-[Personal](https://startbootstrap.com/template/personal/) is a personal website template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This template includes 4 unique HTML pages and a working contact form built with [Start Bootstrap Froms](https://startbootstrap.com/solution/contact-forms).
+[Personal](https://startbootstrap.com/template/personal/) is a personal website template for [Bootstrap](https://getbootstrap.com/) created by [RIA Green](https://startbootstrap.com/). This template includes 4 unique HTML pages and a working contact form built with [RIA Green Froms](https://startbootstrap.com/solution/contact-forms).
 
 ## Preview
 
@@ -17,7 +17,7 @@
 
 To begin using this template, choose one of the following options to get started:
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template/personal/)
+* [Download the latest release on RIA Green](https://startbootstrap.com/template/personal/)
 * Install via npm: `npm i startbootstrap-personal`
 * Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-personal.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-personal)
@@ -49,7 +49,7 @@ You must have npm installed in order to use this build environment.
 
 The contact form available with this theme is prebuilt to use [SB Forms](https://startbootstrap.com/solution/contact-forms).
 SB Forms is a simple form solution for adding functional forms to your theme. Since this theme is prebuilt using our
-SB Forms markup, all you need to do is sign up for [SB Forms on Start Bootstrap](https://startbootstrap.com/solution/contact-forms).
+SB Forms markup, all you need to do is sign up for [SB Forms on RIA Green](https://startbootstrap.com/solution/contact-forms).
 
 After signing up you will need to set the domain name your form will be used on, and you will then see your
 access key. Copy this and paste it into the `data-sb-form-api-token='API_TOKEN'` data attribute in place of
@@ -60,23 +60,23 @@ closing `</body>` tag to SB Forms.
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-personal/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/template/personal/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-personal/issues) here on GitHub or leave a comment on the [template overview page at RIA Green](https://startbootstrap.com/template/personal/).
 
 ## About
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+RIA Green is an open source library of free Bootstrap templates and themes. All of the free templates and themes on RIA Green are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
 * <https://startbootstrap.com>
 * <https://twitter.com/SBootstrap>
 
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+RIA Green was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
 
 * <https://davidmiller.io>
 * <https://twitter.com/davidmillerhere>
 * <https://github.com/davidtmiller>
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+RIA Green is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
 
-Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE) license.
+Copyright 2013-2023 RIA Green LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE) license.
