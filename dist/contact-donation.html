@@ -44,12 +44,11 @@
         <!-- Page content-->
         <section class="py-5">
             <div class="container px-5">
-                <!-- Contact form-->
                 <div class="bg-light rounded-4 py-5 px-4 px-md-5">
                     <div class="text-center mb-5">
                         <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i
                                 class="bi bi-envelope"></i></div>
-                        <h1 class="fw-bolder">Fale com a gente</h1>
+                        <h1 class="fw-bolder">Cadastro para Doação de Eletrônicos</h1>
                         <p class="lead fw-normal text-muted mb-0">Vamos lá!</p>
                     </div>
                     <div class="row gx-5 justify-content-center">
@@ -59,8 +58,9 @@
                                 <div class="form-floating mb-3">
                                     <input class="form-control" id="name" type="text" placeholder="Enter your name..."
                                         data-sb-validations="required" />
-                                    <label for="name">Nome completo</label>
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.
+                                    <label for="name">Nome</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">Um nome é
+                                        obrigatório.
                                     </div>
                                 </div>
                                 <!-- Email address input-->
@@ -68,9 +68,10 @@
                                     <input class="form-control" id="email" type="email" placeholder="name@example.com"
                                         data-sb-validations="required,email" />
                                     <label for="email">Email</label>
-                                    <div class="invalid-feedback" data-sb-feedback="email:required">An email is
-                                        required.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.
+                                    <div class="invalid-feedback" data-sb-feedback="email:required">Um email é
+                                        obrigatório.
+                                    </div>
+                                    <div class="invalid-feedback" data-sb-feedback="email:email">Email não é válido.
                                     </div>
                                 </div>
                                 <!-- Phone number input-->
@@ -78,17 +79,40 @@
                                     <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
                                         data-sb-validations="required" />
                                     <label for="phone">Telefone</label>
-                                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is
-                                        required.</div>
+                                    <div class="invalid-feedback" data-sb-feedback="phone:required">Um telefone é
+                                        obrigatório.</div>
+                                </div>
+                                <p class="lead fw-normal text-muted">Você tem equipamentos eletrônicos para a doação? Se
+                                    sim, que tipo e quantidade? </p>
+                                <!-- Message input-->
+                                <p class="lead fw-normal text-muted">Celular? </p>
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="phone" type="number" placeholder="(123) 456-7890"
+                                        data-sb-validations="required" />
+                                    <label for="phone">Unidades de celular</label>
                                 </div>
                                 <!-- Message input-->
+                                <p class="lead fw-normal text-muted">Computador? </p>
                                 <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="message" type="text"
-                                        placeholder="Enter your message here..." style="height: 10rem"
-                                        data-sb-validations="required"></textarea>
-                                    <label for="message">Mensagem</label>
-                                    <div class="invalid-feedback" data-sb-feedback="message:required">A message is
-                                        required.</div>
+                                    <input class="form-control" id="phone" type="number" placeholder="(123) 456-7890"
+                                        data-sb-validations="required" />
+                                    <label for="phone">Unidades de computador</label>
+                                </div>
+                                <!-- Message input-->
+                                <p class="lead fw-normal text-muted">Painel fotovoltáico? </p>
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="phone" type="number" placeholder="(123) 456-7890"
+                                        data-sb-validations="required" />
+                                    <label for="phone">Unidades de painel fotovoltáico</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <select class="form-control" id="tamanho-compativel" data-sb-validations="required">
+                                        <option value="" disabled selected>Escolha uma opção</option>
+                                        <option value="sim">Sim</option>
+                                        <option value="nao">Não</option>
+                                    </select>
+                                    <label for="tamanho-compativel">Tamanho é compatível com as dimensões de 30 cm por
+                                        40 cm?</label>
                                 </div>
                                 <div class="d-none" id="submitSuccessMessage">
                                     <div class="text-center mb-3">
@@ -113,7 +137,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
     </main>
